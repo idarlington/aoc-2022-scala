@@ -8,7 +8,7 @@ def day6(): Unit = {
   println(s"Day 6 part 2: ${findMarker(14, input)}")
 }
 
-def findMarker(size: Int, input: Vector[Char]): Int = {
+def findMarker(size: Int, input: Seq[Char]): Int = {
   var list = ListBuffer.empty[(Char, Int)]
 
   input.zipWithIndex
